@@ -2,7 +2,6 @@
 
 :root {
     --color-primary: #48cfad;
-    --color-secondary: #F7F7F7;
     --color-text: #8d8d8d;
     --color-icons: white;
     --text-button: black;
@@ -54,7 +53,6 @@ header .header-secction-icons .container-icons {
 header .header-secction-icons .container-icons .icon {
     align-self: center;
     text-decoration: none;
-    color: var(--color-text);
 }
 
 header .header-secction-icons .container-icons span {
@@ -70,7 +68,6 @@ header nav {
     justify-content: center;
     align-items: center;
     justify-items: flex-end;
-    background-color: #F7F7F7;
 }
 
 header nav .container-logo {
