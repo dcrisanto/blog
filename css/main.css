@@ -73,6 +73,11 @@ header nav {
     background-color: #F7F7F7;
 }
 
+header nav .container-logo {
+    display: flex;
+    justify-self: flex-start;
+}
+
 header nav .container-logo .logo {
     width: 100%;
     max-width: 320px;
