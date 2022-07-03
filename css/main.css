@@ -5,7 +5,7 @@
     --color-secondary: #F7F7F7;
     --color-text: #8d8d8d;
     --color-icons: white;
-    --main-background: #222323;
+    --text-button: black;
     --sm: 1.4rem;
     --md: 1.6rem;
     --lg: 1.8rem;
@@ -129,4 +129,6 @@ header nav .container-profile-link a {
 .home-main .home-container .home-main-button a {
     font-size: var(--lg);
     font-weight: bold;
+    color: var(--text-button);
+    text-decoration: none;
 }
