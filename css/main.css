@@ -4,7 +4,7 @@
     --color-primary: #48cfad;
     --color-text: #8d8d8d;
     --color-icons: white;
-    --text-button: black;
+    --text-button: #22272d;
     --sm: 1.4rem;
     --md: 1.6rem;
     --lg: 1.8rem;
@@ -31,14 +31,14 @@ body {
 
 header {
     width: 100%;
-    height: 25vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
 }
 
 header .header-secction-icons {
     width: 100%;
-    height: 30%;
+    height: 40%;
     display: flex;
     background-color: #16C79A;
 }
@@ -61,7 +61,7 @@ header .header-secction-icons .container-icons span {
 
 header nav {
     width: 100%;
-    height: 70%;
+    height: 60%;
     display: grid;
     grid-template-columns: repeat(2, 40%);
     grid-auto-rows: 100%;
